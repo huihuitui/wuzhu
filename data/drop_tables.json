@@ -1,0 +1,23 @@
+{
+  "tables": [
+    {
+      "id": "grunt_default",
+      "entries": [
+        {
+          "type": "weapon",
+          "rarity": "common",
+          "weight": 70
+        },
+        {
+          "type": "weapon",
+          "rarity": "uncommon",
+          "weight": 25
+        },
+        {
+          "type": "currency",
+          "weight": 5
+        }
+      ]
+    }
+  ]
+}

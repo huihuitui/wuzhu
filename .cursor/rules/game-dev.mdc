@@ -1,0 +1,28 @@
+---
+alwaysApply: true
+---
+---
+description: Wasteland Looter project background for Codex/Agent
+globs: **/*.gd, **/*.tscn, **/*.json, **/*.md
+priority: 1
+---
+
+你正在协助我用 Godot 4.x 开发一款 2D 俯视角 looter-shooter 独立游戏《废土弹雨》。
+项目在 Cursor 里用 Codex 辅助开发，素材/UI 会用 NanoBanana 生成。
+灵感来自无主之地的刷枪循环，roguelite 一局结构。
+
+核心循环：
+战斗清怪 → 掉落随机武器（稀有度+词条） → 捡起对比换装 → 变强 → 进入下一片区（难度与掉落提升） → 死亡/结算 → 重开再刷。
+
+当前开发目标：
+先做“最小可玩原型”：
+- 玩家移动/瞄准/射击
+- 敌人AI与刷怪波次
+- 三把基础枪（手感明显不同）
+- 随机掉落+换枪UI
+- 基础 UI
+- 死亡重开
+之后扩展到3区推进+精英/Boss竖切片，并加入“潜行爆发全暴击秒怪”的爽点build。
+
+开发原则：
+先好玩再好看；功能每次只推进一个闭环；数值用 data/*.json 驱动，不要写死在代码里。

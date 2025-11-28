@@ -1,0 +1,16 @@
+{
+  "types": [
+    {
+      "id": "scav_grunt",
+      "name": "废土掠夺者",
+      "health": 50,
+      "speed": 80,
+      "attack": {
+        "type": "melee",
+        "damage": 8,
+        "cooldown": 1.4
+      },
+      "drop_table": "grunt_default"
+    }
+  ]
+}

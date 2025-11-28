@@ -1,0 +1,26 @@
+{
+  "base_weapons": [
+    {
+      "id": "proto_pistol",
+      "name": "原型手枪",
+      "type": "pistol",
+      "rarity": "common",
+      "stats": {
+        "damage": 10,
+        "fire_rate": 4,
+        "projectile_speed": 900,
+        "magazine": 12,
+        "reload_time": 1.2,
+        "spread": 2.5
+      }
+    }
+  ],
+  "affixes": [
+    {
+      "id": "dmg_boost_minor",
+      "rarity": "uncommon",
+      "stat": "damage",
+      "multiplier": 1.1
+    }
+  ]
+}
